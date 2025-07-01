@@ -1,6 +1,27 @@
-! Title: TraineBySniper
-! Test filter: Hides YouTube videos with “trained by” in title
-youtube.com##ytd-video-renderer:has(a#video-title[title*="trained by"])
+! 🚀 Fighter pilot child prodigy
+youtube.com##ytd-video-renderer:has-text(fighter pilot)
+youtube.com##ytd-video-renderer:has-text(young pilot)
+
+! 🎹 Virtuoso piano fake-outs
+youtube.com##ytd-video-renderer:has-text(plays piano)
+youtube.com##ytd-video-renderer:has-text(piano prodigy)
+
+! 🧠 Fake IQ/Mensa clickbait
+youtube.com##ytd-video-renderer:has-text(IQ of 200)
+youtube.com##ytd-video-renderer:has-text(MENSA)
+
+! 🥋 Teenage martial artist stories
+youtube.com##ytd-video-renderer:has-text(black belt at 12)
+youtube.com##ytd-video-renderer:has-text(karate kid)
+
+! 🤡 Overused tropes
+youtube.com##ytd-video-renderer:has-text(instantly regrets)
+youtube.com##ytd-video-renderer:has-text(secretly trained)
+youtube.com##ytd-video-renderer:has-text(military dad)
+
+! 🧼 Bonus: hide Shorts shelf completely
+youtube.com##ytd-reel-shelf-renderer
+
 
 ! Hide specific phrases in titles
 youtube.com##ytd-video-renderer:has(a#video-title[title*="trained by"])
