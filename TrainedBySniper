@@ -1,0 +1,35 @@
+! Hide specific phrases in titles
+youtube.com##ytd-video-renderer:has(a#video-title[title*="trained by"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="sniper"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="secretly a black belt"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="girl fights back"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="you won’t believe"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="insane fight"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="instant regret"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="bullies her"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="instantly regrets it"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="wasn't ready"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="gets destroyed"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="she’s different"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="before and after"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="military dad"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="transformation"])
+
+! Hide specific channels (examples – customize freely)
+youtube.com##ytd-video-renderer:has(a[href*="/@TopThings"])
+youtube.com##ytd-video-renderer:has(a[href*="/@FactsVerse"])
+youtube.com##ytd-video-renderer:has(a[href*="/@KampKenan"])
+youtube.com##ytd-video-renderer:has(a[href*="/@TheInfographicsShow"])
+youtube.com##ytd-video-renderer:has(a[href*="/@SSSniperWolf"])
+youtube.com##ytd-video-renderer:has(a[href*="/@MrBeast"])
+youtube.com##ytd-video-renderer:has(a[href*="/@viralshorts"])
+youtube.com##ytd-video-renderer:has(a[href*="/@YouFactTech"])
+youtube.com##ytd-video-renderer:has(a[href*="/@AlphaLeaders"])
+
+! Remove Shorts on homepage and sidebars
+youtube.com##ytd-rich-shelf-renderer:has(span:has-text(Shorts))
+youtube.com##ytd-grid-video-renderer:has(a[href*="/shorts/"])
+youtube.com##ytd-reel-shelf-renderer
+
+! Optional: Remove homepage entirely (if you want total silence)
+! youtube.com##ytd-rich-grid-renderer
