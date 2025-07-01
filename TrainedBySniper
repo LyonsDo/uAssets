@@ -1,3 +1,7 @@
+! Title: TraineBySniper
+! Test filter: Hides YouTube videos with “trained by” in title
+youtube.com##ytd-video-renderer:has(a#video-title[title*="trained by"])
+
 ! Hide specific phrases in titles
 youtube.com##ytd-video-renderer:has(a#video-title[title*="trained by"])
 youtube.com##ytd-video-renderer:has(a#video-title[title*="sniper"])
