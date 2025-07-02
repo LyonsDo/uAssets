@@ -52,6 +52,7 @@ youtube.com##ytd-video-renderer:has(a[href*="/@YouFactTech"])
 youtube.com##ytd-video-renderer:has(a[href*="/@AlphaLeaders"])
 youtube.com##ytd-video-renderer:has(a[href*="/@AlphaLeaders"])
 youtube.com##ytd-video-renderer:has(a[href*="/@ThrillingTrueStories"])
+youtube.com##ytd-video-renderer:has(a[href*="/@ThrillingTrueStories/featured"])
 
 ! Remove Shorts on homepage and sidebars
 youtube.com##ytd-rich-shelf-renderer:has(span:has-text(Shorts))
