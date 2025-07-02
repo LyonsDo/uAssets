@@ -38,6 +38,8 @@ youtube.com##ytd-video-renderer:has(a#video-title[title*="gets destroyed"])
 youtube.com##ytd-video-renderer:has(a#video-title[title*="she’s different"])
 youtube.com##ytd-video-renderer:has(a#video-title[title*="before and after"])
 youtube.com##ytd-video-renderer:has(a#video-title[title*="military dad"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="Fighter Pilot"])
+youtube.com##ytd-video-renderer:has(a#video-title[title*="Simple Woman"])
 youtube.com##ytd-video-renderer:has(a#video-title[title*="transformation"])
 
 ! Hide specific channels (examples – customize freely)
@@ -53,6 +55,9 @@ youtube.com##ytd-video-renderer:has(a[href*="/@AlphaLeaders"])
 youtube.com##ytd-video-renderer:has(a[href*="/@AlphaLeaders"])
 youtube.com##ytd-video-renderer:has(a[href*="/@ThrillingTrueStories"])
 youtube.com##ytd-video-renderer:has(a[href*="/@ThrillingTrueStories/featured"])
+youtube.com##ytd-video-renderer:has(a[href*="/@EveryDayLifeStories"])
+youtube.com##ytd-video-renderer:has(a[href*="/@DignityStories"])
+youtube.com##ytd-video-renderer:has(a[href*="/@EpicOldWestStories"])
 
 ! Remove Shorts on homepage and sidebars
 youtube.com##ytd-rich-shelf-renderer:has(span:has-text(Shorts))
